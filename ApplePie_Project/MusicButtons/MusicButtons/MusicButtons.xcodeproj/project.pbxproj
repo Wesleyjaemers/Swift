@@ -7,66 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F1F779321661A280048FF96 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F779221661A280048FF96 /* Game.swift */; };
-		2F849BC02164C83D0096EC89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F849BBF2164C83D0096EC89 /* AppDelegate.swift */; };
-		2F849BC22164C83D0096EC89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F849BC12164C83D0096EC89 /* ViewController.swift */; };
-		2F849BC52164C83D0096EC89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F849BC32164C83D0096EC89 /* Main.storyboard */; };
-		2F849BC72164C8420096EC89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F849BC62164C8420096EC89 /* Assets.xcassets */; };
-		2F849BCA2164C8420096EC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F849BC82164C8420096EC89 /* LaunchScreen.storyboard */; };
-		2F849BD52164C8420096EC89 /* ApplePieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F849BD42164C8420096EC89 /* ApplePieTests.swift */; };
-		2F849BE02164C8420096EC89 /* ApplePieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F849BDF2164C8420096EC89 /* ApplePieUITests.swift */; };
+		2F1F77652165EBC20048FF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F77642165EBC20048FF96 /* AppDelegate.swift */; };
+		2F1F77672165EBC20048FF96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F77662165EBC20048FF96 /* ViewController.swift */; };
+		2F1F776A2165EBC20048FF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1F77682165EBC20048FF96 /* Main.storyboard */; };
+		2F1F776C2165EBC40048FF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1F776B2165EBC40048FF96 /* Assets.xcassets */; };
+		2F1F776F2165EBC40048FF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1F776D2165EBC40048FF96 /* LaunchScreen.storyboard */; };
+		2F1F777A2165EBC40048FF96 /* MusicButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F77792165EBC40048FF96 /* MusicButtonsTests.swift */; };
+		2F1F77852165EBC40048FF96 /* MusicButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F77842165EBC40048FF96 /* MusicButtonsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F849BD12164C8420096EC89 /* PBXContainerItemProxy */ = {
+		2F1F77762165EBC40048FF96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2F849BB42164C83D0096EC89 /* Project object */;
+			containerPortal = 2F1F77592165EBC20048FF96 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F849BBB2164C83D0096EC89;
-			remoteInfo = ApplePie;
+			remoteGlobalIDString = 2F1F77602165EBC20048FF96;
+			remoteInfo = MusicButtons;
 		};
-		2F849BDC2164C8420096EC89 /* PBXContainerItemProxy */ = {
+		2F1F77812165EBC40048FF96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2F849BB42164C83D0096EC89 /* Project object */;
+			containerPortal = 2F1F77592165EBC20048FF96 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F849BBB2164C83D0096EC89;
-			remoteInfo = ApplePie;
+			remoteGlobalIDString = 2F1F77602165EBC20048FF96;
+			remoteInfo = MusicButtons;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F1F779221661A280048FF96 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		2F849BBC2164C83D0096EC89 /* ApplePie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F849BBF2164C83D0096EC89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F849BC12164C83D0096EC89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2F849BC42164C83D0096EC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2F849BC62164C8420096EC89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2F849BC92164C8420096EC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2F849BCB2164C8420096EC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F849BD02164C8420096EC89 /* ApplePieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F849BD42164C8420096EC89 /* ApplePieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePieTests.swift; sourceTree = "<group>"; };
-		2F849BD62164C8420096EC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F849BDB2164C8420096EC89 /* ApplePieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F849BDF2164C8420096EC89 /* ApplePieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePieUITests.swift; sourceTree = "<group>"; };
-		2F849BE12164C8420096EC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1F77612165EBC20048FF96 /* MusicButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1F77642165EBC20048FF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F1F77662165EBC20048FF96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F1F77692165EBC20048FF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F1F776B2165EBC40048FF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F1F776E2165EBC40048FF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F1F77702165EBC40048FF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1F77752165EBC40048FF96 /* MusicButtonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicButtonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1F77792165EBC40048FF96 /* MusicButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicButtonsTests.swift; sourceTree = "<group>"; };
+		2F1F777B2165EBC40048FF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1F77802165EBC40048FF96 /* MusicButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1F77842165EBC40048FF96 /* MusicButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicButtonsUITests.swift; sourceTree = "<group>"; };
+		2F1F77862165EBC40048FF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F849BB92164C83D0096EC89 /* Frameworks */ = {
+		2F1F775E2165EBC20048FF96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F849BCD2164C8420096EC89 /* Frameworks */ = {
+		2F1F77722165EBC40048FF96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F849BD82164C8420096EC89 /* Frameworks */ = {
+		2F1F777D2165EBC40048FF96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,138 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F849BB32164C83D0096EC89 = {
+		2F1F77582165EBC20048FF96 = {
 			isa = PBXGroup;
 			children = (
-				2F849BBE2164C83D0096EC89 /* ApplePie */,
-				2F849BD32164C8420096EC89 /* ApplePieTests */,
-				2F849BDE2164C8420096EC89 /* ApplePieUITests */,
-				2F849BBD2164C83D0096EC89 /* Products */,
+				2F1F77632165EBC20048FF96 /* MusicButtons */,
+				2F1F77782165EBC40048FF96 /* MusicButtonsTests */,
+				2F1F77832165EBC40048FF96 /* MusicButtonsUITests */,
+				2F1F77622165EBC20048FF96 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2F849BBD2164C83D0096EC89 /* Products */ = {
+		2F1F77622165EBC20048FF96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F849BBC2164C83D0096EC89 /* ApplePie.app */,
-				2F849BD02164C8420096EC89 /* ApplePieTests.xctest */,
-				2F849BDB2164C8420096EC89 /* ApplePieUITests.xctest */,
+				2F1F77612165EBC20048FF96 /* MusicButtons.app */,
+				2F1F77752165EBC40048FF96 /* MusicButtonsTests.xctest */,
+				2F1F77802165EBC40048FF96 /* MusicButtonsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F849BBE2164C83D0096EC89 /* ApplePie */ = {
+		2F1F77632165EBC20048FF96 /* MusicButtons */ = {
 			isa = PBXGroup;
 			children = (
-				2F849BBF2164C83D0096EC89 /* AppDelegate.swift */,
-				2F849BC12164C83D0096EC89 /* ViewController.swift */,
-				2F849BC32164C83D0096EC89 /* Main.storyboard */,
-				2F1F779221661A280048FF96 /* Game.swift */,
-				2F849BC62164C8420096EC89 /* Assets.xcassets */,
-				2F849BC82164C8420096EC89 /* LaunchScreen.storyboard */,
-				2F849BCB2164C8420096EC89 /* Info.plist */,
+				2F1F77642165EBC20048FF96 /* AppDelegate.swift */,
+				2F1F77662165EBC20048FF96 /* ViewController.swift */,
+				2F1F77682165EBC20048FF96 /* Main.storyboard */,
+				2F1F776B2165EBC40048FF96 /* Assets.xcassets */,
+				2F1F776D2165EBC40048FF96 /* LaunchScreen.storyboard */,
+				2F1F77702165EBC40048FF96 /* Info.plist */,
 			);
-			path = ApplePie;
+			path = MusicButtons;
 			sourceTree = "<group>";
 		};
-		2F849BD32164C8420096EC89 /* ApplePieTests */ = {
+		2F1F77782165EBC40048FF96 /* MusicButtonsTests */ = {
 			isa = PBXGroup;
 			children = (
-				2F849BD42164C8420096EC89 /* ApplePieTests.swift */,
-				2F849BD62164C8420096EC89 /* Info.plist */,
+				2F1F77792165EBC40048FF96 /* MusicButtonsTests.swift */,
+				2F1F777B2165EBC40048FF96 /* Info.plist */,
 			);
-			path = ApplePieTests;
+			path = MusicButtonsTests;
 			sourceTree = "<group>";
 		};
-		2F849BDE2164C8420096EC89 /* ApplePieUITests */ = {
+		2F1F77832165EBC40048FF96 /* MusicButtonsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2F849BDF2164C8420096EC89 /* ApplePieUITests.swift */,
-				2F849BE12164C8420096EC89 /* Info.plist */,
+				2F1F77842165EBC40048FF96 /* MusicButtonsUITests.swift */,
+				2F1F77862165EBC40048FF96 /* Info.plist */,
 			);
-			path = ApplePieUITests;
+			path = MusicButtonsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F849BBB2164C83D0096EC89 /* ApplePie */ = {
+		2F1F77602165EBC20048FF96 /* MusicButtons */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F849BE42164C8420096EC89 /* Build configuration list for PBXNativeTarget "ApplePie" */;
+			buildConfigurationList = 2F1F77892165EBC40048FF96 /* Build configuration list for PBXNativeTarget "MusicButtons" */;
 			buildPhases = (
-				2F849BB82164C83D0096EC89 /* Sources */,
-				2F849BB92164C83D0096EC89 /* Frameworks */,
-				2F849BBA2164C83D0096EC89 /* Resources */,
+				2F1F775D2165EBC20048FF96 /* Sources */,
+				2F1F775E2165EBC20048FF96 /* Frameworks */,
+				2F1F775F2165EBC20048FF96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ApplePie;
-			productName = ApplePie;
-			productReference = 2F849BBC2164C83D0096EC89 /* ApplePie.app */;
+			name = MusicButtons;
+			productName = MusicButtons;
+			productReference = 2F1F77612165EBC20048FF96 /* MusicButtons.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2F849BCF2164C8420096EC89 /* ApplePieTests */ = {
+		2F1F77742165EBC40048FF96 /* MusicButtonsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F849BE72164C8420096EC89 /* Build configuration list for PBXNativeTarget "ApplePieTests" */;
+			buildConfigurationList = 2F1F778C2165EBC40048FF96 /* Build configuration list for PBXNativeTarget "MusicButtonsTests" */;
 			buildPhases = (
-				2F849BCC2164C8420096EC89 /* Sources */,
-				2F849BCD2164C8420096EC89 /* Frameworks */,
-				2F849BCE2164C8420096EC89 /* Resources */,
+				2F1F77712165EBC40048FF96 /* Sources */,
+				2F1F77722165EBC40048FF96 /* Frameworks */,
+				2F1F77732165EBC40048FF96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2F849BD22164C8420096EC89 /* PBXTargetDependency */,
+				2F1F77772165EBC40048FF96 /* PBXTargetDependency */,
 			);
-			name = ApplePieTests;
-			productName = ApplePieTests;
-			productReference = 2F849BD02164C8420096EC89 /* ApplePieTests.xctest */;
+			name = MusicButtonsTests;
+			productName = MusicButtonsTests;
+			productReference = 2F1F77752165EBC40048FF96 /* MusicButtonsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2F849BDA2164C8420096EC89 /* ApplePieUITests */ = {
+		2F1F777F2165EBC40048FF96 /* MusicButtonsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F849BEA2164C8420096EC89 /* Build configuration list for PBXNativeTarget "ApplePieUITests" */;
+			buildConfigurationList = 2F1F778F2165EBC40048FF96 /* Build configuration list for PBXNativeTarget "MusicButtonsUITests" */;
 			buildPhases = (
-				2F849BD72164C8420096EC89 /* Sources */,
-				2F849BD82164C8420096EC89 /* Frameworks */,
-				2F849BD92164C8420096EC89 /* Resources */,
+				2F1F777C2165EBC40048FF96 /* Sources */,
+				2F1F777D2165EBC40048FF96 /* Frameworks */,
+				2F1F777E2165EBC40048FF96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2F849BDD2164C8420096EC89 /* PBXTargetDependency */,
+				2F1F77822165EBC40048FF96 /* PBXTargetDependency */,
 			);
-			name = ApplePieUITests;
-			productName = ApplePieUITests;
-			productReference = 2F849BDB2164C8420096EC89 /* ApplePieUITests.xctest */;
+			name = MusicButtonsUITests;
+			productName = MusicButtonsUITests;
+			productReference = 2F1F77802165EBC40048FF96 /* MusicButtonsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2F849BB42164C83D0096EC89 /* Project object */ = {
+		2F1F77592165EBC20048FF96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "vdab cursist";
 				TargetAttributes = {
-					2F849BBB2164C83D0096EC89 = {
+					2F1F77602165EBC20048FF96 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					2F849BCF2164C8420096EC89 = {
+					2F1F77742165EBC40048FF96 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 2F849BBB2164C83D0096EC89;
+						TestTargetID = 2F1F77602165EBC20048FF96;
 					};
-					2F849BDA2164C8420096EC89 = {
+					2F1F777F2165EBC40048FF96 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 2F849BBB2164C83D0096EC89;
+						TestTargetID = 2F1F77602165EBC20048FF96;
 					};
 				};
 			};
-			buildConfigurationList = 2F849BB72164C83D0096EC89 /* Build configuration list for PBXProject "ApplePie" */;
+			buildConfigurationList = 2F1F775C2165EBC20048FF96 /* Build configuration list for PBXProject "MusicButtons" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 2F849BB32164C83D0096EC89;
-			productRefGroup = 2F849BBD2164C83D0096EC89 /* Products */;
+			mainGroup = 2F1F77582165EBC20048FF96;
+			productRefGroup = 2F1F77622165EBC20048FF96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F849BBB2164C83D0096EC89 /* ApplePie */,
-				2F849BCF2164C8420096EC89 /* ApplePieTests */,
-				2F849BDA2164C8420096EC89 /* ApplePieUITests */,
+				2F1F77602165EBC20048FF96 /* MusicButtons */,
+				2F1F77742165EBC40048FF96 /* MusicButtonsTests */,
+				2F1F777F2165EBC40048FF96 /* MusicButtonsUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2F849BBA2164C83D0096EC89 /* Resources */ = {
+		2F1F775F2165EBC20048FF96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F849BCA2164C8420096EC89 /* LaunchScreen.storyboard in Resources */,
-				2F849BC72164C8420096EC89 /* Assets.xcassets in Resources */,
-				2F849BC52164C83D0096EC89 /* Main.storyboard in Resources */,
+				2F1F776F2165EBC40048FF96 /* LaunchScreen.storyboard in Resources */,
+				2F1F776C2165EBC40048FF96 /* Assets.xcassets in Resources */,
+				2F1F776A2165EBC20048FF96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F849BCE2164C8420096EC89 /* Resources */ = {
+		2F1F77732165EBC40048FF96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F849BD92164C8420096EC89 /* Resources */ = {
+		2F1F777E2165EBC40048FF96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F849BB82164C83D0096EC89 /* Sources */ = {
+		2F1F775D2165EBC20048FF96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F849BC22164C83D0096EC89 /* ViewController.swift in Sources */,
-				2F1F779321661A280048FF96 /* Game.swift in Sources */,
-				2F849BC02164C83D0096EC89 /* AppDelegate.swift in Sources */,
+				2F1F77672165EBC20048FF96 /* ViewController.swift in Sources */,
+				2F1F77652165EBC20048FF96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F849BCC2164C8420096EC89 /* Sources */ = {
+		2F1F77712165EBC40048FF96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F849BD52164C8420096EC89 /* ApplePieTests.swift in Sources */,
+				2F1F777A2165EBC40048FF96 /* MusicButtonsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F849BD72164C8420096EC89 /* Sources */ = {
+		2F1F777C2165EBC40048FF96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F849BE02164C8420096EC89 /* ApplePieUITests.swift in Sources */,
+				2F1F77852165EBC40048FF96 /* MusicButtonsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2F849BD22164C8420096EC89 /* PBXTargetDependency */ = {
+		2F1F77772165EBC40048FF96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F849BBB2164C83D0096EC89 /* ApplePie */;
-			targetProxy = 2F849BD12164C8420096EC89 /* PBXContainerItemProxy */;
+			target = 2F1F77602165EBC20048FF96 /* MusicButtons */;
+			targetProxy = 2F1F77762165EBC40048FF96 /* PBXContainerItemProxy */;
 		};
-		2F849BDD2164C8420096EC89 /* PBXTargetDependency */ = {
+		2F1F77822165EBC40048FF96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F849BBB2164C83D0096EC89 /* ApplePie */;
-			targetProxy = 2F849BDC2164C8420096EC89 /* PBXContainerItemProxy */;
+			target = 2F1F77602165EBC20048FF96 /* MusicButtons */;
+			targetProxy = 2F1F77812165EBC40048FF96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2F849BC32164C83D0096EC89 /* Main.storyboard */ = {
+		2F1F77682165EBC20048FF96 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2F849BC42164C83D0096EC89 /* Base */,
+				2F1F77692165EBC20048FF96 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2F849BC82164C8420096EC89 /* LaunchScreen.storyboard */ = {
+		2F1F776D2165EBC40048FF96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2F849BC92164C8420096EC89 /* Base */,
+				2F1F776E2165EBC40048FF96 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2F849BE22164C8420096EC89 /* Debug */ = {
+		2F1F77872165EBC40048FF96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		2F849BE32164C8420096EC89 /* Release */ = {
+		2F1F77882165EBC40048FF96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,158 +428,158 @@
 			};
 			name = Release;
 		};
-		2F849BE52164C8420096EC89 /* Debug */ = {
+		2F1F778A2165EBC40048FF96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ApplePie/Info.plist;
+				INFOPLIST_FILE = MusicButtons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.ApplePie;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.MusicButtons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2F849BE62164C8420096EC89 /* Release */ = {
+		2F1F778B2165EBC40048FF96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ApplePie/Info.plist;
+				INFOPLIST_FILE = MusicButtons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.ApplePie;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.MusicButtons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		2F849BE82164C8420096EC89 /* Debug */ = {
+		2F1F778D2165EBC40048FF96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ApplePieTests/Info.plist;
+				INFOPLIST_FILE = MusicButtonsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.ApplePieTests;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.MusicButtonsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplePie.app/ApplePie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicButtons.app/MusicButtons";
 			};
 			name = Debug;
 		};
-		2F849BE92164C8420096EC89 /* Release */ = {
+		2F1F778E2165EBC40048FF96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ApplePieTests/Info.plist;
+				INFOPLIST_FILE = MusicButtonsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.ApplePieTests;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.MusicButtonsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApplePie.app/ApplePie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicButtons.app/MusicButtons";
 			};
 			name = Release;
 		};
-		2F849BEB2164C8420096EC89 /* Debug */ = {
+		2F1F77902165EBC40048FF96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ApplePieUITests/Info.plist;
+				INFOPLIST_FILE = MusicButtonsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.ApplePieUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.MusicButtonsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ApplePie;
+				TEST_TARGET_NAME = MusicButtons;
 			};
 			name = Debug;
 		};
-		2F849BEC2164C8420096EC89 /* Release */ = {
+		2F1F77912165EBC40048FF96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ApplePieUITests/Info.plist;
+				INFOPLIST_FILE = MusicButtonsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.ApplePieUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.appcradle.vdab.MusicButtonsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ApplePie;
+				TEST_TARGET_NAME = MusicButtons;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F849BB72164C83D0096EC89 /* Build configuration list for PBXProject "ApplePie" */ = {
+		2F1F775C2165EBC20048FF96 /* Build configuration list for PBXProject "MusicButtons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F849BE22164C8420096EC89 /* Debug */,
-				2F849BE32164C8420096EC89 /* Release */,
+				2F1F77872165EBC40048FF96 /* Debug */,
+				2F1F77882165EBC40048FF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F849BE42164C8420096EC89 /* Build configuration list for PBXNativeTarget "ApplePie" */ = {
+		2F1F77892165EBC40048FF96 /* Build configuration list for PBXNativeTarget "MusicButtons" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F849BE52164C8420096EC89 /* Debug */,
-				2F849BE62164C8420096EC89 /* Release */,
+				2F1F778A2165EBC40048FF96 /* Debug */,
+				2F1F778B2165EBC40048FF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F849BE72164C8420096EC89 /* Build configuration list for PBXNativeTarget "ApplePieTests" */ = {
+		2F1F778C2165EBC40048FF96 /* Build configuration list for PBXNativeTarget "MusicButtonsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F849BE82164C8420096EC89 /* Debug */,
-				2F849BE92164C8420096EC89 /* Release */,
+				2F1F778D2165EBC40048FF96 /* Debug */,
+				2F1F778E2165EBC40048FF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F849BEA2164C8420096EC89 /* Build configuration list for PBXNativeTarget "ApplePieUITests" */ = {
+		2F1F778F2165EBC40048FF96 /* Build configuration list for PBXNativeTarget "MusicButtonsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F849BEB2164C8420096EC89 /* Debug */,
-				2F849BEC2164C8420096EC89 /* Release */,
+				2F1F77902165EBC40048FF96 /* Debug */,
+				2F1F77912165EBC40048FF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2F849BB42164C83D0096EC89 /* Project object */;
+	rootObject = 2F1F77592165EBC20048FF96 /* Project object */;
 }
